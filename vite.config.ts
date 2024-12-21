@@ -5,4 +5,5 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   envDir: '.',
   plugins: [react()],
+  base: '/Candidate-Search/',
 });
