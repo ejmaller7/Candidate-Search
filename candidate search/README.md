@@ -1,33 +1,40 @@
-# React + TypeScript + Vite
+# Candidate Search
+  ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  ## Description
+  The Candidate Search is meant to provide users with a way to search for users on github and either accept the candidates or reject the candidates. After accepting candidates, a list is provided on another page to display all of the candidates that are accepted. On this page, there is information displaying all of the information seen on the previous page with an added element that allows the user to remove candidates from the list if they desire to. The 'Home' page is where you are able to search for candidates and the 'Saved Candidates' page is where you can find all of the candidates you have accepted.
 
-Currently, two official plugins are available:
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Links](#links)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
+  ## Installation
+  ```
+  npm install OR npm install --include=dev
+  ```
 
-## Expanding the ESLint configuration
+  ## Usage
+  While using the repo, ensure that you have a server up and running by typing the command 'npm run dev'. This allows a user to see any changes that they make within the code immediately instead of having to wait and refresh the page. The repo is divided into multiple folders: Api - Api.tsx, Components - Nav.tsx, Interfaces - Candidate.interface.tsx, Pages - CandidateSearch.tsx | ErrorPage.tsx | SavedCandidates.tsx, and the main SRC folder that holds all of those folders along with the App.tsx and Main.tsx files.
 
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+  ## Links
+  Deployed Website: 
 
-* Configure the top-level `parserOptions` property as follows:
+  ## License
+  [MIT License](https://opensource.org/licenses/MIT)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+  ## Contributing
+  In order to contribute to the repo, understand the file structure and read the comments within the code to understand the funcationality of the code. If something needs to be changed by the user, ensure you are in the right file and you read the comments within the code.
 
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
+  ## Tests
+  ```
+  npm run dev - This provides a server for you to see the changes you make in real time
+  ```
 
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+  ## Questions
+  GitHub: [ejmaller7](https://github.com/ejmaller7)
+  Email: mallerethan4@gmail.com
