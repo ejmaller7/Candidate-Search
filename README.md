@@ -22,7 +22,7 @@
   While using the repo, ensure that you have a server up and running by typing the command 'npm run dev'. This allows a user to see any changes that they make within the code immediately instead of having to wait and refresh the page. The repo is divided into multiple folders: Api - Api.tsx, Components - Nav.tsx, Interfaces - Candidate.interface.tsx, Pages - CandidateSearch.tsx | ErrorPage.tsx | SavedCandidates.tsx, and the main SRC folder that holds all of those folders along with the App.tsx and Main.tsx files.
 
   ## Links
-  Deployed Website: 
+  Deployed Website: [Candidate Search](https://ejmaller7.github.io/Candidate-Search/)
 
   ## License
   [MIT License](https://opensource.org/licenses/MIT)
